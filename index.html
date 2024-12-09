@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifas Fio de Ouro</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            animation: slideBackground 25s infinite; /* Aumenta o tempo da animação para mais imagens */
+        }
+
+        /* Definindo a animação para transição de fundo */
+        @keyframes slideBackground {
+            0% {
+                background-image: url('IMG-20241126-WA0277.jpg'); /* Primeira imagem */
+            }
+            20% {
+                background-image: url('photo 2.jpg'); /* Segunda imagem */
+            }
+            40% {
+                background-image: url('photo 3.jpg'); /* Terceira imagem */
+            }
+            60% {
+                background-image: url('photo 4.jpg'); /* Quarta imagem */
+            }
+            80% {
+                background-image: url('photo 5.jpg'); /* Quinta imagem */
+            }
+            100% {
+                background-image: url('IMG-20241126-WA0277.jpg'); /* Volta para a primeira imagem */
+            }
+        }
+
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); 
+            margin: 0;
+            color: #FFD700; /* Letreiro em amarelo */
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 10px 0 20px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra mais forte no texto */
+            color: #228B22; /* Verde para o texto */
+        }
+
+        .button {
+            background-color: #FFD700; /* Dourado */
+            color: black;
+            padding: 15px 30px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo -->
+    <img src="Photo.jpg" class="logo" alt="Logo Fio de Ouro"> <!-- URL da logo -->
+    
+    <h1>Rifas Fio de Ouro</h1>
+    <p>Participe e tenha a chance de ganhar jóias incríveis!</p>
+    <a href="https://chat.whatsapp.com/I19NBBZwxgr6Ffx0DFZJ9W" class="button" target="_blank">Entrar no Grupo</a> <!-- Link do grupo -->
+</body>
+</html>
